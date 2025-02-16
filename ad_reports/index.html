@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" sizes="32x32" />
+		<link rel="icon" href="/icon.svg" type="image/svg+xml" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/manifest.webmanifest" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			try {
+				/** @type {'light' | 'dark' | 'system'} */
+				const savedTheme = localStorage.getItem('evidence-theme') ?? 'system';
+				const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+				const theme = savedTheme === 'system' ? (prefersDark ? 'dark' : 'light') : savedTheme;
+				document.documentElement.classList.add(`theme-${theme}`);
+			} catch (e) {}
+		</script>
+		
+		<link href="/_app/immutable/assets/0.CJA0Iyeh.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/VennDiagram.D7OGjfZg.css" rel="stylesheet">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.DAyijb_J.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.DBC2vMki.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.C7bS4WFw.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.uiYgZBnO.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/preload-helper.D7HrI6pR.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.CsJ-7GvO.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/0.YB2Snyv6.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/VennDiagram.svelte_svelte_type_style_lang.Dk4x6qwh.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.rV6zwFgL.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/setTrackProxy.DjIbdjlZ.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/stores.lFdsXpCj.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.DJC9jY_T.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scroll.BPb-_tDN.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/button.DikxxJbj.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/AccordionItem.B32KNBCa.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/checkRequiredProps.o_C_V3S5.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/5.nrXeLf4_.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/QueryViewer.Bw9w-4tt.js"><title>当日データ</title><!-- HEAD_svelte-2igo1p_START --> <meta property="og:title" content="当日データ"> <meta name="twitter:title" content="当日データ"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@evidence_dev"> <!-- HEAD_svelte-2igo1p_END -->
+	</head>
+	<body>
+		<script>
+			
+		</script>
+		<div>
+			<!-- SvelteKit Hydrated Content -->
+			   <div class="z-[1] fixed right-0 bottom-0 mx-10 my-6 w-80"></div> <div data-sveltekit-preload-data="hover" class="antialiased"> <header class="fixed w-full top-0 z-40 flex h-12 shrink-0 justify-start items-center gap-x-4 border-b border-base-300/50 bg-base-100/90 backdrop-blur print:hidden"><div class=" max-w-7xl mx-auto px-5 sm:px-6 md:px-12 flex flex-1 items-center justify-between" style="max-width:undefinedpx;"><div class="flex gap-x-4 items-center"><button type="button" class="text-base-content hover:bg-base-200 rounded-lg p-1 -ml-1 transition-all duration-500 md:hidden"><span class="sr-only" data-svelte-h="svelte-73kebv">Open sidebar</span> <svg class="w-5 h-5" width="100%" height="100%" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M4 6l16 0"></path><path d="M4 12l16 0"></path><path d="M4 18l16 0"></path></svg></button> <a href="/" class="text-sm font-bold text-base-content hidden md:block"><img src="/_app/immutable/assets/wordmark-black.rfl-FBgf.png" alt="Home" class="h-5 aspect-auto block dark:hidden" href="/"> <img src="/_app/immutable/assets/wordmark-white.C8ZS96Ri.png" alt="Home" class="h-5 aspect-auto hidden dark:block" href="/"></a></div> <div class="flex gap-2 text-sm items-center"> <div class="flex gap-2 items-center">   </div> <div class="relative"> <button type="button" tabindex="0" aria-controls="8rCLUWhBs8" aria-expanded="false" data-state="closed" id="GGyM5P_9Wy" data-melt-dropdown-menu-trigger="" data-menu-trigger="" class="inline-flex items-center justify-center font-medium whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-base-content-muted disabled:pointer-events-none disabled:opacity-50 hover:text-base-content h-8 rounded-md text-xs px-1 hover:bg-base-200 shadow-base-200" aria-label="Menu" data-button-root=""><svg class="h-6 w-6" width="100%" height="100%" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path><path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path></svg></button> </div></div></div></header> <div class=" max-w-7xl print:w-[650px] print:md:w-[841px] mx-auto print:md:px-0 print:px-0 px-6 sm:px-8 md:px-12 flex justify-start" style="max-width:undefinedpx;"><div class="print:hidden">  <aside class="w-48 flex-none hidden md:flex"><div class="hidden: md:block fixed w-48 top-20 bottom-8 overflow-y-auto flex-1 text-sm pretty-scrollbar"><div class="flex flex-col pb-6"><a class="sticky top-0 bg-base-100 shadow shadow-base-100 font-semibold pb-1 mb-1 group inline-block capitalize hover:underline text-base-heading" href="/">Home</a>  <a class="group inline-block py-1 capitalize transition-all duration-100 text-primary" href="/ad_reports">当日データ  </a></div> </div> <div class="fixed bottom-0 text-xs py-2" data-svelte-h="svelte-fworv4"><a href="https://www.evidence.dev" class="bg-gradient-to-r inline-block antialiased font-medium">Built with Evidence</a></div></aside></div> <main class="md:pl-8 md:pr-8  mt-16 sm:mt-20 flex-grow overflow-x-hidden print:px-0 print:mt-8"><div class="print:hidden"><div class="flex items-start mt-0 whitespace-nowrap overflow-auto"><div class="inline-flex items-center text-sm capitalize gap-1 text-base-content-muted mb-2 sm:mb-4"><a href="/" class="hover:underline">Home </a><svg class="icon icon-tabler icon-tabler-chevron-right" width="12px" height="12px" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 6l6 6l-6 6"></path></svg> <a href="/ad_reports" class="hover:underline">当日データ</a></div></div></div> <article id="evidence-main-article" class="select-text markdown pb-10">  <h1 class="title">当日データ</h1>    <div class="over-container svelte-1ursthx"> </div>   <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">Cost </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">¥9,339,204,272 </span>    <div class="inline-block align-baseline" style="width: 50px; height: 15px;"><!-- HTML_TAG_START --><svg width="50" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 50 15">
+<rect width="50" height="15" x="0" y="0" fill="none"></rect>
+<path d="M0 15.5L50 15.5" fill="none" pointer-events="visible" stroke="#d6d6d6" stroke-width="0.75" stroke-linecap="round" class="zr3-cls-12"></path>
+<g clip-path="url(#zr3-c0)">
+<path d="M1 5.4L7.8 1.7L14.7 5.7L21.6 4.3L28.4 6.7L35.3 3.4L42.2 5.1L49 5.7L49 15L42.2 15L35.3 15L28.4 15L21.6 15L14.7 15L7.8 15L1 15Z" fill="#d6d6d6" fill-opacity="0.7" class="zr3-cls-14"></path>
+<path d="M1 5.4L7.8 1.7L14.7 5.7L21.6 4.3L28.4 6.7L35.3 3.4L42.2 5.1L49 5.7" fill="none" pointer-events="visible" stroke="#717171" stroke-linejoin="bevel" class="zr3-cls-15"></path>
+</g>
+<path d="M-5 -5l10 0l0 10l-10 0Z" transform="translate(5 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0" class="zr3-cls-12"></path>
+<defs >
+<clipPath id="zr3-c0">
+<path d="M-1 -0.5l52 0l0 16l-52 0Z" fill="#000" class="zr3-cls-13"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr3-cls-12:hover {
+pointer-events:none;
+}
+.zr3-cls-13:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr3-cls-14:hover {
+cursor:pointer;
+fill:rgba(235,235,235,1);
+}
+.zr3-cls-15:hover {
+cursor:pointer;
+}
+
+]]>
+
+</style>
+</svg><!-- HTML_TAG_END --></div></div> <p class="text-xs font-sans mt-1">   <span class="m-0 text-xs font-ui inline-block rounded-md text-positive"><span style="text-align: right;"><span class="font-[system-ui]"><!-- HTML_TAG_START -->&#9660;<!-- HTML_TAG_END --></span> <span>-5.6%</span> <span>前日対比</span></span></span></p></div>   <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">CPA </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">¥156,690 </span>    <div class="inline-block align-baseline" style="width: 50px; height: 15px;"><!-- HTML_TAG_START --><svg width="50" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 50 15">
+<rect width="50" height="15" x="0" y="0" fill="none"></rect>
+<path d="M0 15.5L50 15.5" fill="none" pointer-events="visible" stroke="#d6d6d6" stroke-width="0.75" stroke-linecap="round" class="zr4-cls-16"></path>
+<g clip-path="url(#zr4-c0)">
+<path d="M1 4.6L7.8 7L14.7 7.7L21.6 7L28.4 7.4L35.3 6.2L42.2 5.1L49 1.9L49 15L42.2 15L35.3 15L28.4 15L21.6 15L14.7 15L7.8 15L1 15Z" fill="#d6d6d6" fill-opacity="0.7" class="zr4-cls-18"></path>
+<path d="M1 4.6L7.8 7L14.7 7.7L21.6 7L28.4 7.4L35.3 6.2L42.2 5.1L49 1.9" fill="none" pointer-events="visible" stroke="#717171" stroke-linejoin="bevel" class="zr4-cls-19"></path>
+</g>
+<path d="M-5 -5l10 0l0 10l-10 0Z" transform="translate(5 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0" class="zr4-cls-16"></path>
+<defs >
+<clipPath id="zr4-c0">
+<path d="M-1 -0.5l52 0l0 16l-52 0Z" fill="#000" class="zr4-cls-17"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr4-cls-16:hover {
+pointer-events:none;
+}
+.zr4-cls-17:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr4-cls-18:hover {
+cursor:pointer;
+fill:rgba(235,235,235,1);
+}
+.zr4-cls-19:hover {
+cursor:pointer;
+}
+
+]]>
+
+</style>
+</svg><!-- HTML_TAG_END --></div></div> <p class="text-xs font-sans mt-1">   <span class="m-0 text-xs font-ui inline-block rounded-md text-negative"><span style="text-align: right;"><span class="font-[system-ui]"><!-- HTML_TAG_START -->&#9650;<!-- HTML_TAG_END --></span> <span>87.8%</span> <span>前日対比</span></span></span></p></div>   <div class="inline-block font-sans pt-2 pb-3 pl-0 mr-3 items-center align-top" style="
+        min-width: 18%;
+        max-width: none;
+		"><p class="text-sm align-top leading-none">Sales </p> <div class="relative text-xl font-medium mt-1.5">   <span style="color: ">¥447,117,515 </span>    <div class="inline-block align-baseline" style="width: 50px; height: 15px;"><!-- HTML_TAG_START --><svg width="50" height="15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 50 15">
+<rect width="50" height="15" x="0" y="0" fill="none"></rect>
+<path d="M0 15.5L50 15.5" fill="none" pointer-events="visible" stroke="#d6d6d6" stroke-width="0.75" stroke-linecap="round" class="zr5-cls-20"></path>
+<g clip-path="url(#zr5-c0)">
+<path d="M1 9.4L7.8 5.7L14.7 7L21.6 1.9L28.4 6.1L35.3 6.5L42.2 9.3L49 10.5L49 15L42.2 15L35.3 15L28.4 15L21.6 15L14.7 15L7.8 15L1 15Z" fill="#d6d6d6" fill-opacity="0.7" class="zr5-cls-22"></path>
+<path d="M1 9.4L7.8 5.7L14.7 7L21.6 1.9L28.4 6.1L35.3 6.5L42.2 9.3L49 10.5" fill="none" pointer-events="visible" stroke="#717171" stroke-linejoin="bevel" class="zr5-cls-23"></path>
+</g>
+<path d="M-5 -5l10 0l0 10l-10 0Z" transform="translate(5 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0" class="zr5-cls-20"></path>
+<defs >
+<clipPath id="zr5-c0">
+<path d="M-1 -0.5l52 0l0 16l-52 0Z" fill="#000" class="zr5-cls-21"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr5-cls-20:hover {
+pointer-events:none;
+}
+.zr5-cls-21:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.zr5-cls-22:hover {
+cursor:pointer;
+fill:rgba(235,235,235,1);
+}
+.zr5-cls-23:hover {
+cursor:pointer;
+}
+
+]]>
+
+</style>
+</svg><!-- HTML_TAG_END --></div></div> <p class="text-xs font-sans mt-1">   <span class="m-0 text-xs font-ui inline-block rounded-md text-negative"><span style="text-align: right;"><span class="font-[system-ui]"><!-- HTML_TAG_START -->&#9660;<!-- HTML_TAG_END --></span> <span>-21.6%</span> <span>前日対比</span></span></span></p></div></article></main> <div class="print:hidden"><aside class="hidden lg:block w-48"><div class="fixed w-48 top-20 bottom-20 pl-4 px-3 overflow-auto pretty-scrollbar"></div></aside></div></div></div>  
+			<script type="application/json" data-sveltekit-fetched data-url="/api/customFormattingSettings.json/GET.json">{"status":200,"statusText":"","headers":{},"body":"{\"customFormattingSettings\":{\"version\":\"1.0\",\"customFormats\":[]}}"}</script>
+			<script type="application/json" data-sveltekit-fetched data-url="/api/pagesManifest.json">{"status":200,"statusText":"","headers":{},"body":"{\"label\":\"Home\",\"href\":\"/\",\"children\":{\"ad_reports\":{\"label\":\"ad reports\",\"href\":\"/ad_reports\",\"children\":{},\"frontMatter\":{\"title\":\"当日データ\"},\"isTemplated\":false,\"isPage\":true}},\"frontMatter\":{\"title\":\"Welcome to Evidence\"},\"isTemplated\":false,\"isPage\":true}"}</script>
+			<script type="application/json" data-sveltekit-fetched data-url="/api//ad_reports/evidencemeta.json">{"status":200,"statusText":"","headers":{},"body":"{\"queries\":[{\"id\":\"daily_data\",\"compiledQueryString\":\"SELECT\\n    t.report_date AS today,\\n    SUM(t.cost) AS today_cost,\\n    SUM(t.cv) AS today_cv,\\n    today_cost / today_cv AS today_cpa,\\n    SUM(t.sales) AS today_sales,\\n    DATE_TRUNC('month', t.report_date) AS month,\\n    today_cost / ANY_VALUE(y.yesterday_cost) - 1 AS cost_growth,\\n    today_cpa / ANY_VALUE(y.yesterday_cv) - 1 AS cpa_growth,\\n    today_sales / ANY_VALUE(y.yesterday_sales) - 1 AS sales_growth\\n  FROM\\n    ad_reports.ad_daily AS t\\n  LEFT JOIN (\\n    SELECT\\n      report_date AS yesterday,\\n      SUM(cost) AS yesterday_cost,\\n      SUM(cv) AS yesterday_cv,\\n      yesterday_cost / yesterday_cv AS yesterday_cpa,\\n      SUM(sales) AS yesterday_sales,\\n    FROM\\n      ad_reports.ad_daily\\n    where report_date = DATE_ADD(CURRENT_DATE, INTERVAL (-1) DAY)\\n    GROUP BY report_date\\n  ) AS y\\n  ON DATE_ADD(t.report_date, INTERVAL (-1) DAY) = y.yesterday\\n  WHERE\\n    t.report_date \u003C= CURRENT_DATE\\n    AND t.report_date >= DATE_ADD(CURRENT_DATE, INTERVAL (-1) WEEK)\\n  GROUP BY t.report_date\\n  ORDER BY t.report_date DESC\\n  ;\",\"inputQueryString\":\"SELECT\\n    t.report_date AS today,\\n    SUM(t.cost) AS today_cost,\\n    SUM(t.cv) AS today_cv,\\n    today_cost / today_cv AS today_cpa,\\n    SUM(t.sales) AS today_sales,\\n    DATE_TRUNC('month', t.report_date) AS month,\\n    today_cost / ANY_VALUE(y.yesterday_cost) - 1 AS cost_growth,\\n    today_cpa / ANY_VALUE(y.yesterday_cv) - 1 AS cpa_growth,\\n    today_sales / ANY_VALUE(y.yesterday_sales) - 1 AS sales_growth\\n  FROM\\n    ad_reports.ad_daily AS t\\n  LEFT JOIN (\\n    SELECT\\n      report_date AS yesterday,\\n      SUM(cost) AS yesterday_cost,\\n      SUM(cv) AS yesterday_cv,\\n      yesterday_cost / yesterday_cv AS yesterday_cpa,\\n      SUM(sales) AS yesterday_sales,\\n    FROM\\n      ad_reports.ad_daily\\n    where report_date = DATE_ADD(CURRENT_DATE, INTERVAL (-1) DAY)\\n    GROUP BY report_date\\n  ) AS y\\n  ON DATE_ADD(t.report_date, INTERVAL (-1) DAY) = y.yesterday\\n  WHERE\\n    t.report_date \u003C= CURRENT_DATE\\n    AND t.report_date >= DATE_ADD(CURRENT_DATE, INTERVAL (-1) WEEK)\\n  GROUP BY t.report_date\\n  ORDER BY t.report_date DESC\\n  ;\",\"compiled\":false,\"inline\":true}]}"}</script>
+			<script>
+				{
+					__sveltekit_bbf0gl = {
+						base: ""
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("/_app/immutable/entry/start.DAyijb_J.js"),
+						import("/_app/immutable/entry/app.uiYgZBnO.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 5],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		
+
+			<!-- SplashScreen -->
+			<div
+				aria-disabled
+				id="__evidence_project_splash"
+				data-test-id="__evidence_project_splash"
+				style="visibility: hidden"
+			>
+				<svg width="100" height="100" viewBox="-8 -8 588 588" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M7.19462e-05 74.3583C109.309 74.3583 195.795 86.2578 286.834 37.825C377.872 -10.6077 466.416 1.29174 573.667 1.29175L573.667 126.549C466.416 126.549 377.373 114.91 286.834 163.082C196.294 211.254 109.309 199.615 6.11417e-05 199.615L7.19462e-05 74.3583Z"
+						class="draw-path"
+					/>
+					<path
+						d="M573.669 499.31C464.36 499.31 377.874 487.411 286.835 535.843C195.797 584.276 107.252 572.377 0.0014801 572.377V447.12C107.252 447.12 196.295 458.758 286.835 410.586C377.375 362.415 464.36 374.053 573.669 374.053V499.31Z"
+						class="draw-path"
+					/>
+					<path
+						d="M452.896 186.499C395.028 187.686 341.581 194.947 286.835 224.074C211.396 264.212 136.995 262.826 52.2355 261.247C35.2696 260.931 17.8887 260.608 0.0014801 260.608V385.865C18.1032 385.865 35.6721 386.204 52.81 386.534C137.212 388.162 211.162 389.589 286.835 349.331C341.838 320.07 395.18 312.831 452.896 311.685V186.499Z"
+						class="draw-path"
+					/>
+				</svg>
+			</div>
+		</div>
+	</body>
+</html>
+
+<style>
+	#__evidence_project_splash {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #ffffff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 9999;
+	}
+
+	.theme-dark #__evidence_project_splash {
+		background-color: #000000;
+	}
+
+	.draw-path {
+		fill: #000000;
+		animation: blinking-logo 2s;
+		animation-fill-mode: both;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+
+	.theme-dark .draw-path {
+		fill: #ffffff;
+	}
+
+	@keyframes blinking-logo {
+		0% {
+			fill-opacity: 1;
+		}
+		50% {
+			fill-opacity: 0.2;
+		}
+		100% {
+			fill-opacity: 1;
+		}
+	}
+</style>
